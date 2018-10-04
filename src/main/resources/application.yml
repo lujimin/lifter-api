@@ -1,0 +1,11 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://cdb-evc4fpj7.gz.tencentcdb.com:10010/haopei?useSSL=false
+    username: root
+    password: 9rqAVp7s4U7d
